@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """A singly linked list class"""
 
+
 class Node:
     """Represents a node in a singly linked list
     Attributes:
@@ -111,4 +112,4 @@ class SinglyLinkedList:
             if tmp.next_node is not None:
                 string += "\n"
             tmp = tmp.next_node
-        return 
+        return
