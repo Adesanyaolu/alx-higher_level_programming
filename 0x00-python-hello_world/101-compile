@@ -1,0 +1,12 @@
+#!/usr/bin/python3
+
+import os
+import py_compile
+
+# Get the filename of the Python script from the environment variable
+filename = os.environ['PYFILE']
+
+# Compile the Python script
+py_compile.compile(filename, cfile=filename+'c')
+
+
